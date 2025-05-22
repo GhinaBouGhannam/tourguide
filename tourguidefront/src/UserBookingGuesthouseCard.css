@@ -1,0 +1,33 @@
+.bookings-row {
+ display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    padding: 20px;
+  }
+
+.booking-card-horizontal {
+    background-color: #fff; 
+    border: 1px solid #e0e0e0; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    padding: 10px;
+    transition: transform 0.2s; 
+}
+
+.booking-card-horizontal:hover {
+    transform: scale(1.02);
+}
+
+.booking-details-horizontal {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+
+.booking-card-title-horizontal {
+    text-align: start;
+    font-size: 1.5rem; 
+    margin: 0; 
+    color: #6aa437;
+}

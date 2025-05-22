@@ -1,0 +1,85 @@
+.add-guesthouse-container {
+    margin: 30px auto 20px; /* Add top margin */
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold;
+    display: block; /* Change to block to keep label on top */
+}
+
+.input-container {
+    display: flex; /* Use flexbox to align inputs beside labels */
+    align-items: center; /* Center align items vertically */
+    margin-bottom: 15px; /* Space between each input section */
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    flex: 1; /* Inputs take up the remaining space */
+    margin-left: 10px; /* Space between label and input */
+}
+
+button {
+    margin-bottom:10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+button[type="button"] {
+    background-color: #28a745; /* Different color for add buttons */
+}
+
+button[type="button"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.facility-input, .pic-input {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.facility-input input, .pic-input input {
+    flex: 1; /* Makes inputs take up full width */
+    margin-right: 10px; /* Space between input and button */
+}

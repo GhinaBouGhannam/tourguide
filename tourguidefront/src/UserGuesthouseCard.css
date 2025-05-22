@@ -1,0 +1,61 @@
+.guesthouses-row {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;              
+    overflow-x: auto;     
+    padding: 16px;        
+    width: 100%;         
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .guesthouse-card {
+    position: relative;
+    display: flex;
+    border: 1px solid #ccc;          
+    border-radius: 8px;             
+    overflow: hidden;                 
+    width: 90%;                       
+    cursor: pointer;                  
+    background-color: #f9f9f9;
+  }
+  
+  .guesthouse-image-container {
+    flex: 1;                          
+    height: 170px;                    
+    overflow: hidden;                 
+  }
+  
+  .guesthouse-card-image {
+    width: 100%;              
+    height: 100%;                     
+    object-fit: cover;              
+  }
+  
+  .guesthouse-details {
+    flex: 2;                          
+    padding: 16px;                   
+    display: flex;
+    flex-direction: column;         
+    justify-content: center;        
+  }
+  
+  .guesthouse-card-title {
+    color:#2da952;
+    font-size: 1.25em;                
+    margin-bottom: 8px;              
+  }
+  
+  .guesthouse-card-city {
+    margin-bottom: 4px;            
+  }
+  
+  .guesthouse-price {
+    color:rgb(243, 36, 36);
+    font-weight: bold;            
+  }
+  .options-dropdown{
+    display: flex;
+    flex-direction: row;
+   align-items: center; 
+    gap: 10px; 
+}
